@@ -1,10 +1,18 @@
-
+import React from 'react'
+import Navbar from './Navbar'
+import Sidebar from './Sidebar'
+import Hero from './Hero'
+import Submenue from './Submenue'
 
 function App() {
   return (
-    <div>
-      <h2>App.js</h2>
-    </div>
+    <>
+      <Navbar />
+      <Sidebar />
+      <Hero />
+      <Submenue />
+      
+    </>
   );
 }
 

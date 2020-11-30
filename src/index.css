@@ -36,6 +36,7 @@ Variables
   --clr-green-dark: hsl(125, 67%, 44%);
   --clr-green-light: hsl(125, 71%, 66%);
   --clr-black: #222;
+
   --transition: all 0.3s linear;
   --spacing: 0.1rem;
   --radius: 0.25rem;
@@ -147,15 +148,21 @@ Stripe Styles
   background: transparent;
   position: relative;
   z-index: 1;
+
+  border: 1px solid gray;
 }
 .nav-center {
   width: 90vw;
   max-width: var(--max-width);
+
+  border: 1px solid rgb(94, 88, 88);
 }
 .nav-header {
   display: flex;
   justify-content: space-between;
   align-items: center;
+
+  border: 1px solid rgb(99, 82, 82);
 }
 .btn {
   font-size: 1rem;
