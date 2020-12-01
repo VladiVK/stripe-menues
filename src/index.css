@@ -123,6 +123,7 @@ p {
 /*  global classes */
 
 /* section */
+
 .section {
   width: 90vw;
   margin: 0 auto;
@@ -149,20 +150,20 @@ Stripe Styles
   position: relative;
   z-index: 1;
 
-  border: 1px solid gray;
+  
 }
 .nav-center {
   width: 90vw;
   max-width: var(--max-width);
 
-  border: 1px solid rgb(94, 88, 88);
+  
 }
 .nav-header {
   display: flex;
   justify-content: space-between;
   align-items: center;
 
-  border: 1px solid rgb(99, 82, 82);
+  
 }
 .btn {
   font-size: 1rem;
